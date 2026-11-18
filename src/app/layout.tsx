@@ -30,13 +30,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'FOTOCOPY ABADI JAYA' }],
   alternates: {
-    canonical: 'https://sites.google.com/view/abadijayacopier',
+    canonical: 'https://abadijayacopier.vercel.app/',
   },
   openGraph: {
     title: 'FOTOCOPY ABADI JAYA — Solusi Mesin Fotocopy & Percetakan Terpadu',
     description:
       'Penjualan mesin fotocopy, service, overhaul, sparepart, toner, percetakan, undangan, penjilidan & ATK. Area layanan: Magetan, Madiun, Ponorogo, Ngawi.',
-    url: 'https://sites.google.com/view/abadijayacopier',
+    url: 'https://abadijayacopier.vercel.app/',
     siteName: 'FOTOCOPY ABADI JAYA',
     locale: 'id_ID',
     type: 'website',
@@ -59,7 +59,7 @@ export default function RootLayout({
     alternateName: 'Abadi Jaya Copier',
     description:
       'Penjualan mesin fotocopy, service, sparepart, toner, penjilidan, percetakan, undangan, copy center, dan alat tulis kantor.',
-    url: 'https://sites.google.com/view/abadijayacopier',
+    url: 'https://abadijayacopier.vercel.app/',
     telephone: '+6285655620979',
     priceRange: 'Rp 200 - Rp 2.500.000',
     address: {
@@ -103,7 +103,7 @@ export default function RootLayout({
       { '@type': 'LocationFeatureSpecification', name: 'Wheelchair accessible restroom', value: true },
       { '@type': 'LocationFeatureSpecification', name: 'Unisex restroom', value: true },
     ],
-    sameAs: ['https://wa.me/6285655620979', 'https://sites.google.com/view/abadijayacopier'],
+    sameAs: ['https://wa.me/6285655620979', 'https://abadijayacopier.vercel.app/'],
   };
 
   return (
