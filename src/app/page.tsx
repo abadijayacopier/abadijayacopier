@@ -6,6 +6,7 @@ import { fetchServicesFromDB } from '@/lib/supabaseClient';
 import ServiceBookingSection from '@/components/ServiceBookingSection';
 import OnlinePrintOrderModal from '@/components/OnlinePrintOrderModal';
 import Footer from '@/components/Footer';
+const ADMIN_PIN = process.env.NEXT_PUBLIC_ADMIN_PIN || '1234';
 
 const CATEGORIES = [
   'Semua',
