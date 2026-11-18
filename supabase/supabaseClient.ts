@@ -1,8 +1,8 @@
 import { createClient } from '@supabase/supabase-js';
 import { SERVICES_DATA, ServiceItem } from '@/data/abadiJayaData';
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
-const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '';
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://geminfxqctxkmfmskinp.supabase.co';
+const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || 'sb_publishable_h-uwc2fq6jgdEjd9XyMuyA_nqfpM64S';
 
 export const supabase =
   supabaseUrl && supabaseAnonKey ? createClient(supabaseUrl, supabaseAnonKey) : null;
